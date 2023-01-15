@@ -9,6 +9,7 @@ export default function App() {
       //   type: [DocumentPicker.types.pdf],
       //   allowMultiSelection: true
       // });
+      // const doc = await DocumentPicker.pickSingle()
       const doc = await DocumentPicker.pickMultiple({
         type: [DocumentPicker.types.pdf, DocumentPicker.types.images]
       })
